@@ -1,0 +1,10 @@
+name: My Workflow
+
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a script
+        run: echo "Hello, world!"
